@@ -6,15 +6,14 @@ for (let i = 0; i < 100; i++) {
     const number = i + 1
     console.log(number)
 
-
-    if ( number % 5 == 0 ) {
-        console.log( number + 'Buzz')
-    } else if  (number % 3 == 0) {
-        console.log( number + 'fizz')
-    } else if ( (number % 3 && number % 5 ==0)){
+    if (number % 3 == 0 && number % 5 == 0) {
         console.log(number + 'buzzfizz')
+    }else if (number % 5 == 0) {
+        console.log(number + 'Buzz')
+    } else if (number % 3 == 0) {
+        console.log(number + 'fizz')
     }
-    
+
     // per i multipli di 3 stampi fizz al posto dei numeri
 
     // per i multipli di 5 stampi buzz
