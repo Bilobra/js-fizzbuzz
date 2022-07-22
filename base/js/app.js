@@ -6,21 +6,19 @@ for (let i = 0; i < 100; i++) {
     const number = i + 1
     // console.log(number)
 
-    //  creaimo un elemento
-    const divElement = document.createElement('div')
-    // lo modifichiamo mettendogli qualcosa all'interno
-    divElement.append(number)
-    console.log(divElement)
+   
 
     if (number % 3 == 0 && number % 5 == 0) {
-        console.log( 'BuzzFizz') // per i numeri sia multipli di 3 che di 5 stami fizzbuzz
+        console.log( 'FizzBuzz') // per i numeri sia multipli di 3 che di 5 stamp fizzbuzz
     } else if (number % 5 == 0) {
-        console.log('Buzz') // per i multipli di 5 stampi buzz
+        console.log('Buzz') // per i multipli di 5 stamp buzz
 
     } else if (number % 3 == 0) {
-        console.log( 'Fizz') // per i multipli di 3 stampi fizz al posto dei numeri
+        console.log( 'Fizz') // per i multipli di 3 stamp fizz al posto dei numeri
     }
-
+    else {
+        console.log (number) // per i numeri che non rientrano nella condizione stamp i + 1
+    }
 
 
 
