@@ -31,16 +31,30 @@ body {
 /* grid */
 .grid {
     display: grid;
-    gap: 15px;
+    gap: 20px;
     /* flex-wrap: wrap; */
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    padding: 30px;
 }
 
 .cell {
-    color: white;
+    color: black;
     background-color: cornflowerblue;
     aspect-ratio: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.buzz_cell{
+    background-color: #FFD166;
+}
+.normal_cell{
+    background-color: #1389B2;
+}
+.buzzfizz_cell{
+    background-color: #F0466F;
+}
+.fizz_cell{
+    background-color: #0CD6A1;
 }
