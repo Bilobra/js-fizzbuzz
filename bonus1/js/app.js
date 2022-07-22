@@ -1,6 +1,11 @@
 // console log di prova
 // console.log('hello!')
 
+
+const gridElement = document.querySelector('.grid')
+console.log(gridElement)
+gridElement.innerHTML = ''
+
 // scrivi programma che stampi in console n° da 1 a 100
 for (let i = 0; i < 100; i++) {
     const number = i + 1
