@@ -15,7 +15,7 @@ for (let i = 0; i < 100; i++) {
     const divElement = document.createElement('div')
     // lo modifichiamo mettendogli qualcosa all'interno
     divElement.classList.add('cell')
-    divElement.append(number)
+    // divElement.append(number)
     console.log(divElement)
 
     
@@ -36,6 +36,7 @@ for (let i = 0; i < 100; i++) {
     else {
         // console.log (number) // per i numeri che non rientrano nella condizione stamp i + 1
         divElement.classList.add('normal_cell')
+        divElement.append(number)
     }
 
     gridElement.append(divElement)
